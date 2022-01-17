@@ -4,5 +4,15 @@
     "keywords": [
         "whatsapp",
         "bot"
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku-community/apt"
+        }
     ]
 }
